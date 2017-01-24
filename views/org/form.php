@@ -5,7 +5,8 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\ActiveForm;
-use vova07\imperavi\Widget as Redactor;
+//use vova07\imperavi\Widget as Redactor;
+use dosamigos\tinymce\TinyMce;
 
 $this->title = 'Сведения о ДЭПах';
 
@@ -43,16 +44,26 @@ switch ($model->cat) {
             ],
         ]); ?>
 
-            <?= $form->field($model, 'text')->widget(Redactor::className(), [ 
-		        'settings' => [ 
-		            'lang' => 'ru', 
-		            'minHeight' => 400, 
+            <?= $form->field($model, 'text')->widget(TinyMce::className(), [ 
+            	'options' => ['rows' => 26],
+            	'language' => 'ru',
+		        'clientOptions' => [ 
 		            'plugins' => [ 
-		                'clips', 
-		                'fullscreen',
-		                'table',
-		                'fontsize'
-		            ] 
+		                "advlist autolink lists link charmap print preview anchor", 
+		                "searchreplace visualblocks code fullscreen",
+		                "insertdatetime media table contextmenu paste image",
+		                //"responsivefilemanager filemanager",
+		            ],
+		            'toolbar' => "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | fontselect | fontsizeselect", 
+		            //| responsivefilemanager", 
+		            //'external_filemanager_path' => '/web/plugins/responsivefilemanager/filemanager/',
+		            //'filemanager_title' => 'Responsive Filemanager',
+		            'external_plugins' => [
+			            // Кнопка загрузки файла в диалоге вставки изображения.
+			            //'filemanager' => '/web/plugins/responsivefilemanager/filemanager/plugin.min.js',
+			            // Кнопка загрузки файла в тулбаре.
+			            //'responsivefilemanager' => '/web/plugins/responsivefilemanager/tinymce/plugins/responsivefilemanager/plugin.min.js',
+			        ],
 		        ] 
 		    ])->label($section." ".$model->user->fullname); ?>
 

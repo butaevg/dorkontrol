@@ -56,9 +56,9 @@ class OrgController extends Controller
 
         if ($model->load(Yii::$app->request->post()) and $model->save()) {
             return $this->redirect([
-                'org/', 
-                'dep_id' => $model->dep_id, 
-                'cat' => $model->cat
+                'org/view/', 
+                'dep_id' => intval($model->dep_id), 
+                'cat' => intval($model->cat)
             ]);
         } else {
             return $this->render('form', ['model' => $model]);

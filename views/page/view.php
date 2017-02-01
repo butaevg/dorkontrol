@@ -8,6 +8,6 @@ $this->title = $page->title;
     <div id="page">
         <h3><?php echo $page->title; ?></h3>
 
-        <p><?php echo nl2br($page->text); ?></p><br><br>
+        <p><?php echo $page->text; ?></p><br><br>
 
     </div>

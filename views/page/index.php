@@ -130,23 +130,23 @@ $this->title = 'Дагдорконтроль';
                     <td align=left>".$m->user->name."</td>
                     <td>";
                     if ($m->sost == "ясно") {
-                       echo "<img src='http://dk.dagavtodor.ru/static/img/icons/weather/sun.png' title=ясно>";
+                       echo "<img src='img/icons/weather/sun.png' title=ясно>";
                     }
                     else {
 
                         if ($m->sost == "пасмурно") {
-                            echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/overcast.png title=пасмурно>";
+                            echo "<img src=img/icons/weather/overcast.png title=пасмурно>";
                         }
                         else {
                             if ($m->sost == "туман") {
-                               echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/foggy.png title=туман>";
+                               echo "<img src=img/icons/weather/foggy.png title=туман>";
                             }
                             else {
                                 if ($m->sost == "дождь") {
-                                    echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/rain.png title=дождь>";
+                                    echo "<img src=img/icons/weather/rain.png title=дождь>";
                                 }
                                 else {
-                                    echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/snow.png title=снег>";
+                                    echo "<img src=img/icons/weather/snow.png title=снег>";
                                 } 
                             }
                         }

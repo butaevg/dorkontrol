@@ -56,23 +56,23 @@ $this->title = 'Дорожные и погодные условия';
 			<td>
             <?php
 			    if ($row->sost == "ясно") {
-                       echo "<img src='http://dk.dagavtodor.ru/static/img/icons/weather/sun.png' title=ясно>";
+                       echo "<img src='img/icons/weather/sun.png' title=ясно>";
                     }
                     else {
 
                         if ($row->sost == "пасмурно") {
-                            echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/overcast.png title=пасмурно>";
+                            echo "<img src=img/icons/weather/overcast.png title=пасмурно>";
                         }
                         else {
                             if ($row->sost == "туман") {
-                               echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/foggy.png title=туман>";
+                               echo "<img src=img/icons/weather/foggy.png title=туман>";
                             }
                             else {
                                 if ($row->sost == "дождь") {
-                                    echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/rain.png title=дождь>";
+                                    echo "<img src=img/icons/weather/rain.png title=дождь>";
                                 }
                                 else {
-                                    echo "<img src=http://dk.dagavtodor.ru/static/img/icons/weather/snow.png title=снег>";
+                                    echo "<img src=img/icons/weather/snow.png title=снег>";
                                 } 
                             }
                         }
@@ -84,7 +84,7 @@ $this->title = 'Дорожные и погодные условия';
 			<td><?php echo $row->pr_r; ?></td>
 			<td><?php echo $row->pr_m; ?></td>
 			<td><?php echo $row->works; ?></td>
-			<td><a href=https://instagram.com/<?php echo $row->user->insta; ?>/ target="_blank"><img src="http://dk.dagavtodor.ru/static/img/social/insta.png" width="25"></a></td>
+			<td><a href=https://instagram.com/<?php echo $row->user->insta; ?>/ target="_blank"><img src="img/social/insta.png" width="25"></a></td>
 			</tr>
 			
 			<?php

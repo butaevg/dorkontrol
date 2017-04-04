@@ -31,7 +31,11 @@ $config = [
                 'machine/<action>/<working:\d+>' => 'machine/<action>',   
                 'org/<dep_id:\d+>/<cat:\d+>' => 'org/view',     
                 'org/update/<id:\d+>' => 'org/update',     
-                'psd/exec/<id:\d+>' => 'psd/exec',     
+                'psd/exec/<id:\d+>' => 'psd/exec',  
+                'road/update/<id:\d+>' => 'road/update',    
+                'road/reportlist/<road_id:\d+>' => 'road/reportlist', 
+                'road/createreport/<road_id:\d+>' => 'road/createreport', 
+                'road/upload/<report_id:\d+>' => 'road/upload',
             ],
         ],
         'cache' => [

@@ -33,9 +33,9 @@ $this->title = 'Фотографии';
             </p>
 
             <?php foreach ($images as $img) {
-                echo "<a href=upload/roads/".$img->url." class=fancybox data-fancybox-group=gallery>";
+                echo "<a class=fancybox data-fancybox-group='road' href=upload/roads/".$img->url." title=''>";
 
-                echo Yii::$app->thumbnail->img("upload/roads/".$img->url, [
+                echo Yii::$app->thumbnail->img("roads/".$img->url, [
                         'thumbnail' => [
                             'width' => 150,
                             'height' => 100,

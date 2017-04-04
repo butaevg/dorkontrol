@@ -49,8 +49,9 @@ $this->title = 'Дагдорконтроль';
                 <ul>
                     <li><a href="page/geoinformacionnaya-sistema">Геоинформационная система</a></li>
                     <li><a href="page/asfaltobetonnye-zavody">Современные асфальтобетонные заводы</a></li>
-                    <li><a href="page/3d-nivelirovanie">3D-нивелирование</a></li>
-                    <li><a href="page/videomonitoring-dorozhnyh-rabot">Видеомониторинг дорожных работ</a></li>                  
+                    <li><a href="page/3d-nivelirovanie">3D-нивелирование</a></li> 
+                    <li><a href="page/novye-materialy">Новые материалы</a></li>
+                    <li><a href="page/kachestvennoe-proektirovanie">Качественное проектирование</a></li>                
                     <li></li>
                 </ul>
             </div>

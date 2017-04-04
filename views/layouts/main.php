@@ -64,8 +64,8 @@ AppAsset::register($this);
                         <li><a href="page/struktura-obsluzhivaemoj-seti-dorog">Структура обслуживаемой сети дорог</a></li>                     
                         <li><a href="map/">Информационные карты районов</a></li>
                         <li><a href="page/svedeniya-po-bdd">Безопасность дорожного движения</a></li>
-                        <li><a href="org/dep/">Дорожно-эксплуатационные предприятия</a></li>
-                        <li><a href="org/vne/">Внешние подрядчики</a></li>
+                        <li><a href="page/dep">Дорожно-эксплуатационные предприятия</a></li>
+                        <li><a href="page/contractors">Внешние подрядчики</a></li>
                     </ul>
                 </li>
                 <li><a>МОНИТОРИНГ</a>

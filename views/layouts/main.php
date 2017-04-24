@@ -58,6 +58,7 @@ AppAsset::register($this);
                         <li><a href="road/progress/124">Ход работ на важнейших объектах</a></li>
                     </ul>
                 </li>
+                <li><a href="docs/">ДОКУМЕНТЫ</a></li>
                 <li><a>ДОРОЖНОЕ ХОЗЯЙСТВО</a>
                     <ul>
                         <li><a href="page/set-avtomobilnyh-dorog-rd">Сеть автомобильных дорог РД</a></li>

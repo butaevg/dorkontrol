@@ -36,6 +36,11 @@ $config = [
                 'road/reportlist/<road_id:\d+>' => 'road/reportlist', 
                 'road/createreport/<road_id:\d+>' => 'road/createreport', 
                 'road/upload/<report_id:\d+>' => 'road/upload',
+                'docs/<category_id:\d+>' => 'docs/index',
+                'docs/manage/<category_id:\d+>' => 'docs/manage',
+                'docs/create' => 'docs/create',
+                'docs/update/<id:\d+>' => 'docs/update',
+                'docs/upload/<category_id:\d+>' => 'docs/upload',
             ],
         ],
         'cache' => [

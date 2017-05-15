@@ -18,11 +18,13 @@ $this->title = 'Дагдорконтроль';
                 </div>
                 <ul>
                     <li><a href="road/progress/124">Строительство а/д Гунибское шоссе-Вантляшевский перевал км 72 - км 85</a></li> 
+                    <li><a href="road/progress/127">Строительство а/д «Обход г. Дербент» км 0 - км 3</a></li>
                     <li><a href="road/progress/123">Реконструкция а/д Грозный-Ботлих-Хунзах-Араканская площадка на участке км 214-км 220</a></li>
                     <li><a href="road/progress/73">Реконструкция а/д Манас – Сергокала – Первомайское</a></li>
                     <li><a href="road/progress/122">Реконструкция а/д Грозный-Ботлих-Хунзах-Араканская площадк» на участке км 184,5-км 192,6</a></li>
                     <li><a href="road/progress/112">Реконструкция автомобильной дороги Махачкала - Каспийск</a></li>
                     <li><a href="road/progress/108">Реконструкция автомобильной дороги Агвали - Шаури - Кидеро</a></li>
+                    <li><a href="road/progress/3">Реконструкция а/д Ново-Гапцах - Тагиркент - Ново-Филя - Ялама</a></li>
                     <li><a href="road/progress/93">Реконструкция автомобильной дороги Муни - Агвали</a></li>
                     <li><a href="road/progress/71">Реконструкция а/д Грозный-Ботлих-Хунзах-Араканская площадка км 110-км 117</a></li>
                     <li></li>
@@ -113,6 +115,7 @@ $this->title = 'Дагдорконтроль';
                     <div class="cam"><a href="weather/"><img src='img/sidebar/pogoda.png'></a></div>
                     <div class="cam"><a href="road/progress/124"><img src='img/sidebar/xod.png'></a></div>
                     <div class="cam"><a href="camera/ip/"><img src='img/sidebar/videomon.jpg'></a></div>
+                    <div class="cam"><a href="appeal/"><img src='img/sidebar/faq.png'></a></div>
                 </ul>   
             </div>
         </div><!--end col3-->

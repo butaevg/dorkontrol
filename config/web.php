@@ -19,6 +19,7 @@ $config = [
             'enableStrictParsing' => false,
             'rules' => [
                 '' => 'page/index',
+                'appeal' => 'appeal/index',
                 '<action>'=>'page/<action>',
                 'page/list/'=>'page/list',
                 'page/create'=>'page/create',
@@ -40,7 +41,7 @@ $config = [
                 'docs/manage/<category_id:\d+>' => 'docs/manage',
                 'docs/create' => 'docs/create',
                 'docs/update/<id:\d+>' => 'docs/update',
-                'docs/upload/<category_id:\d+>' => 'docs/upload',
+                'docs/upload/<category_id:\d+>' => 'docs/upload', 
             ],
         ],
         'cache' => [

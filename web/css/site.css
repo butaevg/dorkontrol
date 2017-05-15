@@ -203,7 +203,12 @@ table.tech td div {width: 260px; height: 150px; }
 
 #extra{clear:both; width: 1048px; }
 
-/*---АККОРДЕОН---*/
-section.Zebra_Accordion { margin-top: 0; }
-section.Zebra_Accordion h3 { cursor: pointer; } 
-section.Zebra_Accordion p { display: none }
+/*---APPEAL---*/
+.appeal {padding-left: 15px;}
+.appeal input, select { height: 28px; padding: 6px 12px; font-size: 14px;  color: #555;
+               border: 1px solid #ccc; border-radius: 4px;}
+.appeal textarea {padding: 6px 12px; font-size: 14px;  color: #555;
+               border: 1px solid #ccc; border-radius: 4px;}
+.appeal table { margin-bottom: 30px; width: 1000px; border-collapse: collapse;}
+.appeal td { border-bottom: 1px solid #3A558B; text-align: left; padding: 5px;}
+.appeal thead td { text-align: center; font-weight: bold;}
